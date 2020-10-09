@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="96" failures="0" time="4.521">
+  <testsuite name="map" errors="0" failures="0" skipped="0" timestamp="2020-10-09T08:28:06" time="3.862" tests="96">
+    <testcase classname="map array" name="map array" time="0.005">
+    </testcase>
+    <testcase classname="map undefined" name="map undefined" time="0.001">
+    </testcase>
+    <testcase classname="map member" name="map member" time="0.001">
+    </testcase>
+    <testcase classname="filter array" name="filter array" time="0.001">
+    </testcase>
+    <testcase classname="filter member" name="filter member" time="0.001">
+    </testcase>
+    <testcase classname="drop array" name="drop array" time="0.001">
+    </testcase>
+    <testcase classname="drop default" name="drop default" time="0">
+    </testcase>
+    <testcase classname="drop member" name="drop member" time="0.001">
+    </testcase>
+    <testcase classname="filterMap array" name="filterMap array" time="0.001">
+    </testcase>
+    <testcase classname="filterMap array with undefined" name="filterMap array with undefined" time="0.001">
+    </testcase>
+    <testcase classname="filterMap member" name="filterMap member" time="0">
+    </testcase>
+    <testcase classname="flat array" name="flat array" time="0.001">
+    </testcase>
+    <testcase classname="flat undefined" name="flat undefined" time="0">
+    </testcase>
+    <testcase classname="flatMap array" name="flatMap array" time="0.001">
+    </testcase>
+    <testcase classname="flatMap member" name="flatMap member" time="0">
+    </testcase>
+    <testcase classname="repeat array" name="repeat array" time="0.001">
+    </testcase>
+    <testcase classname="zip array" name="zip array" time="0.001">
+    </testcase>
+    <testcase classname="zip empty item" name="zip empty item" time="0.001">
+    </testcase>
+    <testcase classname="zip undefined" name="zip undefined" time="0">
+    </testcase>
+    <testcase classname="zip member" name="zip member" time="0.001">
+    </testcase>
+    <testcase classname="generate infinite" name="generate infinite" time="0">
+    </testcase>
+    <testcase classname="reduce no items" name="reduce no items" time="0">
+    </testcase>
+    <testcase classname="reduce 1" name="reduce 1" time="0">
+    </testcase>
+    <testcase classname="reduce 2" name="reduce 2" time="0">
+    </testcase>
+    <testcase classname="reduce member" name="reduce member" time="0">
+    </testcase>
+    <testcase classname="sum array" name="sum array" time="0.001">
+    </testcase>
+    <testcase classname="min 3" name="min 3" time="0">
+    </testcase>
+    <testcase classname="min 0" name="min 0" time="0.001">
+    </testcase>
+    <testcase classname="min negative" name="min negative" time="0.001">
+    </testcase>
+    <testcase classname="fold member" name="fold member" time="0.001">
+    </testcase>
+    <testcase classname="max 3" name="max 3" time="0">
+    </testcase>
+    <testcase classname="max 0" name="max 0" time="0.001">
+    </testcase>
+    <testcase classname="max negative (to make sure, no zeros are involved" name="max negative (to make sure, no zeros are involved" time="0">
+    </testcase>
+    <testcase classname="forEach array" name="forEach array" time="0.001">
+    </testcase>
+    <testcase classname="forEach member" name="forEach member" time="0.001">
+    </testcase>
+    <testcase classname="isEqual ref equal" name="isEqual ref equal" time="0">
+    </testcase>
+    <testcase classname="isEqual equal" name="isEqual equal" time="0">
+    </testcase>
+    <testcase classname="isEqual length" name="isEqual length" time="0">
+    </testcase>
+    <testcase classname="isEqual not equal" name="isEqual not equal" time="0.001">
+    </testcase>
+    <testcase classname="isEqual default e" name="isEqual default e" time="0">
+    </testcase>
+    <testcase classname="isEqual one undefined" name="isEqual one undefined" time="0.001">
+    </testcase>
+    <testcase classname="isEqual both undefined" name="isEqual both undefined" time="0">
+    </testcase>
+    <testcase classname="isEqual member" name="isEqual member" time="0">
+    </testcase>
+    <testcase classname="last 3" name="last 3" time="0">
+    </testcase>
+    <testcase classname="last undefined" name="last undefined" time="0.001">
+    </testcase>
+    <testcase classname="last member" name="last member" time="0">
+    </testcase>
+    <testcase classname="some some" name="some some" time="0.001">
+    </testcase>
+    <testcase classname="some none" name="some none" time="0.001">
+    </testcase>
+    <testcase classname="some with undefined" name="some with undefined" time="0">
+    </testcase>
+    <testcase classname="some member" name="some member" time="0">
+    </testcase>
+    <testcase classname="some member default, non empty" name="some member default, non empty" time="0.001">
+    </testcase>
+    <testcase classname="some member default, empty" name="some member default, empty" time="0">
+    </testcase>
+    <testcase classname="isArray array" name="isArray array" time="0.001">
+    </testcase>
+    <testcase classname="isArray array" name="isArray array" time="0">
+    </testcase>
+    <testcase classname="concat several" name="concat several" time="0">
+    </testcase>
+    <testcase classname="concat concat" name="concat concat" time="0.001">
+    </testcase>
+    <testcase classname="concat member" name="concat member" time="0">
+    </testcase>
+    <testcase classname="toArray undefined" name="toArray undefined" time="0.001">
+    </testcase>
+    <testcase classname="toArray member" name="toArray member" time="0">
+    </testcase>
+    <testcase classname="every all" name="every all" time="0">
+    </testcase>
+    <testcase classname="every not all" name="every not all" time="0.001">
+    </testcase>
+    <testcase classname="every member" name="every member" time="0">
+    </testcase>
+    <testcase classname="reverse array" name="reverse array" time="0.001">
+    </testcase>
+    <testcase classname="reverse member" name="reverse member" time="0">
+    </testcase>
+    <testcase classname="isEmpty empty" name="isEmpty empty" time="0.001">
+    </testcase>
+    <testcase classname="isEmpty not empty" name="isEmpty not empty" time="0">
+    </testcase>
+    <testcase classname="isEmpty with undefined" name="isEmpty with undefined" time="0.001">
+    </testcase>
+    <testcase classname="isEmpty member" name="isEmpty member" time="0">
+    </testcase>
+    <testcase classname="entries member" name="entries member" time="0.001">
+    </testcase>
+    <testcase classname="findEntry some" name="findEntry some" time="0">
+    </testcase>
+    <testcase classname="findEntry none" name="findEntry none" time="0">
+    </testcase>
+    <testcase classname="findEntry undefined" name="findEntry undefined" time="0">
+    </testcase>
+    <testcase classname="findEntry member" name="findEntry member" time="0.001">
+    </testcase>
+    <testcase classname="find some" name="find some" time="0">
+    </testcase>
+    <testcase classname="find none" name="find none" time="0.001">
+    </testcase>
+    <testcase classname="find undefined" name="find undefined" time="0">
+    </testcase>
+    <testcase classname="find member" name="find member" time="0.001">
+    </testcase>
+    <testcase classname="join /" name="join /" time="0.002">
+    </testcase>
+    <testcase classname="join one" name="join one" time="0.001">
+    </testcase>
+    <testcase classname="join empty" name="join empty" time="0">
+    </testcase>
+    <testcase classname="takeWhile member" name="takeWhile member" time="0.001">
+    </testcase>
+    <testcase classname="take 1" name="take 1" time="0">
+    </testcase>
+    <testcase classname="take member" name="take member" time="0.001">
+    </testcase>
+    <testcase classname="dropRight array" name="dropRight array" time="0.001">
+    </testcase>
+    <testcase classname="dropRight 1" name="dropRight 1" time="0">
+    </testcase>
+    <testcase classname="dropRight undefined" name="dropRight undefined" time="0.005">
+    </testcase>
+    <testcase classname="uniq sorted" name="uniq sorted" time="0.001">
+    </testcase>
+    <testcase classname="uniq unsorted" name="uniq unsorted" time="0">
+    </testcase>
+    <testcase classname="uniq complex" name="uniq complex" time="0.001">
+    </testcase>
+    <testcase classname="uniq member" name="uniq member" time="0">
+    </testcase>
+    <testcase classname="chain Symbol.iterator" name="chain Symbol.iterator" time="0.001">
+    </testcase>
+    <testcase classname="chain no this" name="chain no this" time="0">
+    </testcase>
+    <testcase classname="arrayReverse some value" name="arrayReverse some value" time="0.001">
+    </testcase>
+    <testcase classname="scan scan" name="scan scan" time="0">
+    </testcase>
+    <testcase classname="first first" name="first first" time="0.001">
+    </testcase>
+    <testcase classname="first undefined" name="first undefined" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

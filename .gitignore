@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Rush files
+common/temp/**
+package-deps.json
+.rush
