@@ -1,0 +1,54 @@
+{
+  "name": "@azure-openapi-tools/fs",
+  "version": "1.0.0",
+  "description": "Promisified File System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && nyc mocha ./dist/test.js",
+    "prepack": "npm install && tsc"
+  },
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "dist/index.js",
+    "dist/index.js.map",
+    "src/index.ts"
+  ],
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "exclude": [
+      "dist/test.js"
+    ],
+    "check-coverage": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/openapi-tools-common.git"
+  },
+  "author": "Sergey Shandar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azure/openapi-tools-common/issues"
+  },
+  "homepage": "https://github.com/Azure/openapi-tools-common#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "@azure-openapi-tools/async-iterator": "^1.0.0",
+    "@types/node": "^10.12.18",
+    "tslib": "^1.9.3"
+  }
+}

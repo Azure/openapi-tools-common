@@ -1,0 +1,25 @@
+{
+  "name": "@ts-common/json",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@ts-common/json_v1.0.0",
+      "date": "Wed, 05 Aug 2020 05:46:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update versions"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@ts-common/iterator\" from `^1.0.0-private` to `^1.0.0`"
+          },
+          {
+            "comment": "Updating dependency \"@ts-common/string-map\" from `^1.0.0-private` to `^1.0.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

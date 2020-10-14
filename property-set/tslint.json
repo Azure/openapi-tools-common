@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:all"
+    ],
+    "jsRules": {},
+    "rules": {
+        "linebreak-style": false,
+        "semicolon": false,
+        "interface-name": false,
+        "only-arrow-functions": false,
+        "typedef": false,
+        "newline-before-return": false,
+        "ordered-imports": false,
+        "completed-docs": false,
+        "no-unsafe-any": false,
+        "comment-format": false,
+        "no-unused-variable": false,
+        "member-ordering": false,
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}

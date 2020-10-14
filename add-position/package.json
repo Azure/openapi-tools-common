@@ -1,14 +1,22 @@
 {
-  "name": "@azure-openapi-tools/iterator",
+  "name": "@azure-openapi-tools/add-position",
   "version": "1.0.0",
-  "description": "Iterator library for JavaScript and TypeScript",
+  "description": "Add position to every character in a stream",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/index.js.map",
+    "dist/index.js",
+    "src/index.ts"
+  ],
   "scripts": {
     "build": "tsc",
-    "tslint": "tslint --project tsconfig.json",
-    "prepack": "npm run build",
-    "test": "tsc && jest"
+    "tslint": "tslint -p tsconfig.json",
+    "jest": "jest",
+    "test": "tsc && tslint -p tsconfig.json && jest",
+    "prepack": "npm run build"
   },
   "jest": {
     "testEnvironment": "node",
@@ -43,24 +51,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ts-common/iterator.git"
+    "url": "git+https://github.com/Azure/openapi-tools-common.git"
   },
-  "keywords": [
-    "iterator"
-  ],
-  "files": [
-    "dist/index.js",
-    "dist/index.d.ts",
-    "dist/index.d.ts.map",
-    "dist/index.js.map",
-    "src/index.ts"
-  ],
   "author": "Sergey Shandar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ts-common/iterator/issues"
+    "url": "https://github.com/Azure/openapi-tools-common/issues"
   },
-  "homepage": "https://github.com/ts-common/iterator#readme",
+  "homepage": "https://github.com/Azure/openapi-tools-common/#readme",
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "jest": "^26.1.0",
@@ -68,5 +66,8 @@
     "tslint": "^6.0.0",
     "tslint-immutable": "^6.0.1",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@azure-openapi-tools/iterator": "^1.0.0"
   }
 }

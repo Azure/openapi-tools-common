@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="13" failures="0" time="3.125">
+  <testsuite name="entries" errors="0" failures="0" skipped="0" timestamp="2020-10-10T05:54:20" time="2.819" tests="13">
+    <testcase classname="entries undefined" name="entries undefined" time="0.003">
+    </testcase>
+    <testcase classname="entries array" name="entries array" time="0">
+    </testcase>
+    <testcase classname="map array" name="map array" time="0.001">
+    </testcase>
+    <testcase classname="map promise" name="map promise" time="0.001">
+    </testcase>
+    <testcase classname="flatten undefined" name="flatten undefined" time="0.001">
+    </testcase>
+    <testcase classname="flatten with undefined" name="flatten with undefined" time="0">
+    </testcase>
+    <testcase classname="flatMap array" name="flatMap array" time="0.001">
+    </testcase>
+    <testcase classname="fold array" name="fold array" time="0">
+    </testcase>
+    <testcase classname="fromSequence array" name="fromSequence array" time="0">
+    </testcase>
+    <testcase classname="fromPromise array" name="fromPromise array" time="0.001">
+    </testcase>
+    <testcase classname="empty nothing" name="empty nothing" time="0.001">
+    </testcase>
+    <testcase classname="filter some" name="filter some" time="0.001">
+    </testcase>
+    <testcase classname="filter promise" name="filter promise" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

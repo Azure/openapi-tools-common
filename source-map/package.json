@@ -1,0 +1,66 @@
+{
+  "name": "@azure-openapi-tools/source-map",
+  "version": "1.0.0",
+  "description": "Source Map",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "test": "tsc && nyc --use-spawn-wrap mocha ./dist/test.js --reporter mocha-junit-reporter",
+    "prepack": "tsc"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "text",
+      "cobertura"
+    ],
+    "exclude": [
+      "dist/test.js"
+    ],
+    "check-coverage": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "types": "index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "src/index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/openapi-tools-common.git"
+  },
+  "keywords": [
+    "source",
+    "map"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azure/openapi-tools-common/issues"
+  },
+  "homepage": "https://github.com/Azure/openapi-tools-common#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "mocha-junit-reporter": "^1.23.3",
+    "nyc": "^15.0.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@azure-openapi-tools/iterator": "^1.0.0",
+    "@azure-openapi-tools/json": "^1.0.0",
+    "@azure-openapi-tools/property-set": "^0.1.0",
+    "@azure-openapi-tools/string-map": "^1.0.0"
+  }
+}

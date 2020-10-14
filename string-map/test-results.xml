@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0080" tests="22" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-09T09:15:02" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="groupBy" timestamp="2020-10-09T09:15:02" tests="1" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="groupBy array" time="0.0020" classname="array">
+    </testcase>
+  </testsuite>
+  <testsuite name="values" timestamp="2020-10-09T09:15:02" tests="2" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="values array" time="0.0010" classname="array">
+    </testcase>
+    <testcase name="values array with undefined" time="0.0000" classname="array with undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="names" timestamp="2020-10-09T09:15:02" tests="1" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="names array" time="0.0000" classname="array">
+    </testcase>
+  </testsuite>
+  <testsuite name="entry" timestamp="2020-10-09T09:15:02" tests="1" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="entry destruction" time="0.0000" classname="destruction">
+    </testcase>
+  </testsuite>
+  <testsuite name="allKeys" timestamp="2020-10-09T09:15:02" tests="1" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="allKeys undefined" time="0.0010" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="entries" timestamp="2020-10-09T09:15:02" tests="3" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="entries array" time="0.0000" classname="array">
+    </testcase>
+    <testcase name="entries array with undefined" time="0.0000" classname="array with undefined">
+    </testcase>
+    <testcase name="entries undefined" time="0.0000" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="stringMap" timestamp="2020-10-09T09:15:02" tests="2" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="stringMap stringMap" time="0.0000" classname="stringMap">
+    </testcase>
+    <testcase name="stringMap stringMap duplicate" time="0.0000" classname="stringMap duplicate">
+    </testcase>
+  </testsuite>
+  <testsuite name="toStringMap" timestamp="2020-10-09T09:15:02" tests="2" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="toStringMap toStringMap" time="0.0000" classname="toStringMap">
+    </testcase>
+    <testcase name="toStringMap optional" time="0.0000" classname="optional">
+    </testcase>
+  </testsuite>
+  <testsuite name="map" timestamp="2020-10-09T09:15:02" tests="1" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="map map" time="0.0000" classname="map">
+    </testcase>
+  </testsuite>
+  <testsuite name="isEqual" timestamp="2020-10-09T09:15:02" tests="2" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="isEqual equal" time="0.0010" classname="equal">
+    </testcase>
+    <testcase name="isEqual not equal" time="0.0010" classname="not equal">
+    </testcase>
+  </testsuite>
+  <testsuite name="merge" timestamp="2020-10-09T09:15:02" tests="4" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="merge two" time="0.0000" classname="two">
+    </testcase>
+    <testcase name="merge three with collision" time="0.0010" classname="three with collision">
+    </testcase>
+    <testcase name="merge empty" time="0.0000" classname="empty">
+    </testcase>
+    <testcase name="merge merge undefined" time="0.0010" classname="merge undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="isEmpty" timestamp="2020-10-09T09:15:02" tests="2" file="C:\azureboards\openapi-tools-common\string-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="isEmpty empty" time="0.0000" classname="empty">
+    </testcase>
+    <testcase name="isEmpty not empty" time="0.0000" classname="not empty">
+    </testcase>
+  </testsuite>
+</testsuites>

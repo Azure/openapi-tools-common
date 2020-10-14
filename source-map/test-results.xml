@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0230" tests="45" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-10T06:28:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="info" timestamp="2020-10-10T06:28:47" tests="2" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="info array" time="0.0010" classname="array">
+    </testcase>
+    <testcase name="info undefined" time="0.0000" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="getInfo" timestamp="2020-10-10T06:28:47" tests="1" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="getInfo no info" time="0.0000" classname="no info">
+    </testcase>
+  </testsuite>
+  <testsuite name="getInfoFunc" timestamp="2020-10-10T06:28:47" tests="1" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="getInfoFunc undefined" time="0.0010" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="arrayMap" timestamp="2020-10-10T06:28:47" tests="5" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="arrayMap arrayMap" time="0.0000" classname="arrayMap">
+    </testcase>
+    <testcase name="arrayMap arrayMap" time="0.0010" classname="arrayMap">
+    </testcase>
+    <testcase name="arrayMap arrayMapInfo" time="0.0000" classname="arrayMapInfo">
+    </testcase>
+    <testcase name="arrayMap arrayMapInfoAlt" time="0.0000" classname="arrayMapInfoAlt">
+    </testcase>
+    <testcase name="arrayMap undefined" time="0.0010" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="stringMap" timestamp="2020-10-10T06:28:47" tests="4" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0030" failures="0">
+    <testcase name="stringMap stringMap" time="0.0010" classname="stringMap">
+    </testcase>
+    <testcase name="stringMap stringMapSame" time="0.0010" classname="stringMapSame">
+    </testcase>
+    <testcase name="stringMap stringMapObject" time="0.0000" classname="stringMapObject">
+    </testcase>
+    <testcase name="stringMap undefined" time="0.0010" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="stringMapMerge" timestamp="2020-10-10T06:28:47" tests="4" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="stringMapMerge merge" time="0.0000" classname="merge">
+    </testcase>
+    <testcase name="stringMapMerge nothing to merge" time="0.0010" classname="nothing to merge">
+    </testcase>
+    <testcase name="stringMapMerge no inputs" time="0.0000" classname="no inputs">
+    </testcase>
+    <testcase name="stringMapMerge undefined source" time="0.0000" classname="undefined source">
+    </testcase>
+  </testsuite>
+  <testsuite name="propertySetMap" timestamp="2020-10-10T06:28:47" tests="4" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="propertySetMap copy" time="0.0000" classname="copy">
+    </testcase>
+    <testcase name="propertySetMap change" time="0.0000" classname="change">
+    </testcase>
+    <testcase name="propertySetMap change object" time="0.0010" classname="change object">
+    </testcase>
+    <testcase name="propertySetMap add object" time="0.0010" classname="add object">
+    </testcase>
+  </testsuite>
+  <testsuite name="getRootObjectInfo" timestamp="2020-10-10T06:28:47" tests="1" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0000" failures="0">
+    <testcase name="getRootObjectInfo from object" time="0.0000" classname="from object">
+    </testcase>
+  </testsuite>
+  <testsuite name="getPath" timestamp="2020-10-10T06:28:47" tests="3" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0010" failures="0">
+    <testcase name="getPath from object" time="0.0000" classname="from object">
+    </testcase>
+    <testcase name="getPath from file" time="0.0010" classname="from file">
+    </testcase>
+    <testcase name="getPath from nested object" time="0.0000" classname="from nested object">
+    </testcase>
+  </testsuite>
+  <testsuite name="cloneDeepWithInfo" timestamp="2020-10-10T06:28:47" tests="1" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="cloneDeepWithInfo array &amp; object" time="0.0020" classname="array &amp; object">
+    </testcase>
+  </testsuite>
+  <testsuite name="cloneDeep" timestamp="2020-10-10T06:28:47" tests="5" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0020" failures="0">
+    <testcase name="cloneDeep null" time="0.0000" classname="null">
+    </testcase>
+    <testcase name="cloneDeep boolean" time="0.0000" classname="boolean">
+    </testcase>
+    <testcase name="cloneDeep string" time="0.0010" classname="string">
+    </testcase>
+    <testcase name="cloneDeep number" time="0.0000" classname="number">
+    </testcase>
+    <testcase name="cloneDeep array &amp; object" time="0.0010" classname="array &amp; object">
+    </testcase>
+  </testsuite>
+  <testsuite name="getDescendantFilePosition" timestamp="2020-10-10T06:28:47" tests="9" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0030" failures="0">
+    <testcase name="getDescendantFilePosition empty" time="0.0010" classname="empty">
+    </testcase>
+    <testcase name="getDescendantFilePosition none" time="0.0000" classname="none">
+    </testcase>
+    <testcase name="getDescendantFilePosition primitive" time="0.0000" classname="primitive">
+    </testcase>
+    <testcase name="getDescendantFilePosition no child" time="0.0010" classname="no child">
+    </testcase>
+    <testcase name="getDescendantFilePosition primitive, no info" time="0.0000" classname="primitive, no info">
+    </testcase>
+    <testcase name="getDescendantFilePosition object" time="0.0000" classname="object">
+    </testcase>
+    <testcase name="getDescendantFilePosition array,primitive" time="0.0010" classname="array,primitive">
+    </testcase>
+    <testcase name="getDescendantFilePosition invalid path" time="0.0000" classname="invalid path">
+    </testcase>
+    <testcase name="getDescendantFilePosition undefined" time="0.0000" classname="undefined">
+    </testcase>
+  </testsuite>
+  <testsuite name="getAllDirectives" timestamp="2020-10-10T06:28:47" tests="5" file="C:\azureboards\openapi-tools-common\source-map\dist\test.js" time="0.0050" failures="0">
+    <testcase name="getAllDirectives primitive" time="0.0020" classname="primitive">
+    </testcase>
+    <testcase name="getAllDirectives invalid" time="0.0000" classname="invalid">
+    </testcase>
+    <testcase name="getAllDirectives empty" time="0.0010" classname="empty">
+    </testcase>
+    <testcase name="getAllDirectives no info for primitive" time="0.0010" classname="no info for primitive">
+    </testcase>
+    <testcase name="getAllDirectives no root info" time="0.0010" classname="no root info">
+    </testcase>
+  </testsuite>
+</testsuites>

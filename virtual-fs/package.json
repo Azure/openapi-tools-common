@@ -1,0 +1,60 @@
+{
+  "name": "@azure-openapi-tools/virtual-fs",
+  "version": "1.0.0",
+  "description": "Virtual File System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "test": "tsc && nyc --use-spawn-wrap mocha ./dist/test/test.js -t 10000",
+    "prepack": "npm run build"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "exclude": [
+      "dist/test/test.js"
+    ]
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "dist/index.js.map",
+    "dist/index.ts",
+    "src/index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azure/openapi-tools-common.git"
+  },
+  "keywords": [
+    "virtual",
+    "file",
+    "system"
+  ],
+  "author": "Sergey Shandar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azure/openapi-tools-common/issues"
+  },
+  "homepage": "https://github.com/azure/openapi-tools-common#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@azure-openapi-tools/fs": "^1.0.0",
+    "@azure-openapi-tools/iterator": "^1.0.0",
+    "@types/async-retry": "^1.4.1",
+    "@types/node-fetch": "^2.5.7",
+    "async-retry": "^1.2.3",
+    "node-fetch": "^2.6.0"
+  }
+}

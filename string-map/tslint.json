@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-immutable"
+    ],
+    "jsRules": {},
+    "rules": {
+        "array-type": false,
+        "interface-name": false,
+        "forin": false,
+        "semicolon": false,
+        "ordered-imports": false,
+        "arrow-parens": false,
+        "trailing-comma": false,
+
+        // Recommended built-in rules
+        "no-var-keyword": true,
+        "no-parameter-reassignment": true,
+        "typedef": true,
+
+        // Immutability rules
+        "readonly-keyword": true,
+        "readonly-array": true,
+        "no-let": [true, "ignore-local"],
+        "no-object-mutation": true,
+        "no-delete": true,
+        "no-method-signature": true,
+
+        // Functional style rules
+        "no-this": true,
+        "no-class": true,
+        "no-mixed-interface": true,
+        "no-expression-statement": true,
+        "no-if-statement": true,
+        "no-loop-statement": true
+    },
+    "rulesDirectory": []
+}

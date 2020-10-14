@@ -431,8 +431,58 @@
     //   "reviewCategory": "tools"
     // }
     {
-      "packageName": "@openapi-tools-common/iterator",
+      "packageName": "@azure-openapi-tools/iterator",
       "projectFolder": "iterator",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/string-map",
+      "projectFolder": "string-map",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/json",
+      "projectFolder": "json",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/add-position",
+      "projectFolder": "add-position",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/property-set",
+      "projectFolder": "property-set",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/async-iterator",
+      "projectFolder": "async-iterator",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/fs",
+      "projectFolder": "fs",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/virtual-fs",
+      "projectFolder": "virtual-fs",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/source-map",
+      "projectFolder": "source-map",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/json-parser",
+      "projectFolder": "json-parser",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@azure-openapi-tools/commonmark-to-markdown",
+      "projectFolder": "commonmark-to-markdown",
       "shouldPublish": true
     }
   ]

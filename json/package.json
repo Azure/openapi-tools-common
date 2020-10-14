@@ -1,15 +1,30 @@
 {
-  "name": "@azure-openapi-tools/iterator",
+  "name": "@azure-openapi-tools/json",
   "version": "1.0.0",
-  "description": "Iterator library for JavaScript and TypeScript",
+  "description": "JSON Data Type",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "tslint": "tslint --project tsconfig.json",
-    "prepack": "npm run build",
-    "test": "tsc && jest"
+    "test": "tsc && npm run tslint && jest",
+    "prepack": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/openapi-tools-common"
+  },
+  "author": "Sergey Shandar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azure/openapi-tools-common/issues"
+  },
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts.map",
+    "src/index.ts"
+  ],
   "jest": {
     "testEnvironment": "node",
     "testMatch": [
@@ -41,32 +56,18 @@
     "outputDirectory": ".",
     "outputName": "test-results.xml"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ts-common/iterator.git"
-  },
-  "keywords": [
-    "iterator"
-  ],
-  "files": [
-    "dist/index.js",
-    "dist/index.d.ts",
-    "dist/index.d.ts.map",
-    "dist/index.js.map",
-    "src/index.ts"
-  ],
-  "author": "Sergey Shandar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ts-common/iterator/issues"
-  },
-  "homepage": "https://github.com/ts-common/iterator#readme",
+  "homepage": "https://github.com/Azure/openapi-tools-common/#readme",
   "devDependencies": {
     "@types/jest": "^24.0.25",
+    "@types/node": "^10.12.18",
     "jest": "^26.1.0",
     "jest-junit": "^11.0.1",
     "tslint": "^6.0.0",
-    "tslint-immutable": "^6.0.1",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@azure-openapi-tools/iterator": "^1.0.0",
+    "@azure-openapi-tools/string-map": "^1.0.0",
+    "tslib": "^2.0.0"
   }
 }
