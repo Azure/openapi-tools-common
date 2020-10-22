@@ -1,4 +1,4 @@
-# Change Log - @ts-common/virtual-fs
+# Change Log - @azure-openapi-tools/virtual-fs
 
 This log was last generated on Wed, 05 Aug 2020 05:46:49 GMT and should not be manually modified.
 

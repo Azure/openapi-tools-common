@@ -1,4 +1,4 @@
-# Change Log - @ts-common/iterator
+# Change Log - @azure-openapi-tools/iterator
 
 This log was last generated on Wed, 05 Aug 2020 05:46:49 GMT and should not be manually modified.
 

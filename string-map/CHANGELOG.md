@@ -1,4 +1,4 @@
-# Change Log - @ts-common/string-map
+# Change Log - @azure-openapi-tools/string-map
 
 This log was last generated on Wed, 05 Aug 2020 05:46:49 GMT and should not be manually modified.
 

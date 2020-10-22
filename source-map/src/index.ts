@@ -55,7 +55,7 @@ export const createChildObjectInfo = (
 
 export type ObjectInfo = ChildObjectInfo|RootObjectInfo
 
-export const objectInfoSymbol = Symbol.for("@ts-common/source-map/object-info")
+export const objectInfoSymbol = Symbol.for("@azure-openapi-tools/source-map/object-info")
 
 export interface TrackedBaseInterface {
     readonly [objectInfoSymbol]: InfoFunc

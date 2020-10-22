@@ -1,9 +1,9 @@
 {
-  "name": "@ts-common/source-map",
+  "name": "@azure-openapi-tools/source-map",
   "entries": [
     {
       "version": "1.0.0",
-      "tag": "@ts-common/source-map_v1.0.0",
+      "tag": "@azure-openapi-tools/source-map_v1.0.0",
       "date": "Wed, 05 Aug 2020 05:46:49 GMT",
       "comments": {
         "patch": [
@@ -13,13 +13,13 @@
         ],
         "dependency": [
           {
-            "comment": "Updating dependency \"@ts-common/iterator\" from `^1.0.0-private` to `^1.0.0`"
+            "comment": "Updating dependency \"@azure-openapi-tools/iterator\" from `^1.0.0-private` to `^1.0.0`"
           },
           {
-            "comment": "Updating dependency \"@ts-common/json\" from `^1.0.0-private` to `^1.0.0`"
+            "comment": "Updating dependency \"@azure-openapi-tools/json\" from `^1.0.0-private` to `^1.0.0`"
           },
           {
-            "comment": "Updating dependency \"@ts-common/string-map\" from `^1.0.0-private` to `^1.0.0`"
+            "comment": "Updating dependency \"@azure-openapi-tools/string-map\" from `^1.0.0-private` to `^1.0.0`"
           }
         ]
       }
