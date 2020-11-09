@@ -431,57 +431,57 @@
     //   "reviewCategory": "tools"
     // }
     {
-      "packageName": "@azure-openapi-tools/iterator",
+      "packageName": "@azure/openapi-tools-common-iterator",
       "projectFolder": "iterator",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/string-map",
+      "packageName": "@azure/openapi-tools-common-string-map",
       "projectFolder": "string-map",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/json",
+      "packageName": "@azure/openapi-tools-common-json",
       "projectFolder": "json",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/add-position",
+      "packageName": "@azure/openapi-tools-common-add-position",
       "projectFolder": "add-position",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/property-set",
+      "packageName": "@azure/openapi-tools-common-property-set",
       "projectFolder": "property-set",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/async-iterator",
+      "packageName": "@azure/openapi-tools-common-async-iterator",
       "projectFolder": "async-iterator",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/fs",
+      "packageName": "@azure/openapi-tools-common-fs",
       "projectFolder": "fs",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/virtual-fs",
+      "packageName": "@azure/openapi-tools-common-virtual-fs",
       "projectFolder": "virtual-fs",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/source-map",
+      "packageName": "@azure/openapi-tools-common-source-map",
       "projectFolder": "source-map",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/json-parser",
+      "packageName": "@azure/openapi-tools-common-json-parser",
       "projectFolder": "json-parser",
       "shouldPublish": true
     },
     {
-      "packageName": "@azure-openapi-tools/commonmark-to-markdown",
+      "packageName": "@azure/openapi-tools-common-commonmark-to-markdown",
       "projectFolder": "commonmark-to-markdown",
       "shouldPublish": true
     }

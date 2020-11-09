@@ -1,5 +1,5 @@
 import * as cm from "commonmark"
-import * as it from "@azure-openapi-tools/iterator"
+import * as it from "@azure/openapi-tools-common-iterator"
 var fm = require('front-matter')
 
 export interface MarkDownEx {

@@ -1,5 +1,5 @@
-import * as _ from "@azure-openapi-tools/iterator";
-import { MutableStringMap, StringMap } from "@azure-openapi-tools/string-map";
+import * as _ from "@azure/openapi-tools-common-iterator";
+import { MutableStringMap, StringMap } from "@azure/openapi-tools-common-string-map";
 
 export interface JsonObjectInterface extends StringMap<Json> {}
 

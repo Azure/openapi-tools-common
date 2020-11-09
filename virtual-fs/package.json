@@ -50,8 +50,8 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@azure-openapi-tools/fs": "^1.0.0",
-    "@azure-openapi-tools/iterator": "^1.0.0",
+    "@azure/openapi-tools-common-fs": "^1.0.0",
+    "@azure/openapi-tools-common-iterator": "^1.0.0",
     "@types/async-retry": "^1.4.1",
     "@types/node-fetch": "^2.5.7",
     "async-retry": "^1.2.3",

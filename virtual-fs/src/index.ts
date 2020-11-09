@@ -1,5 +1,5 @@
-import * as fsp from "@azure-openapi-tools/fs"
-import * as it from "@azure-openapi-tools/iterator"
+import * as fsp from "@azure/openapi-tools-common-fs"
+import * as it from "@azure/openapi-tools-common-iterator"
 import fetch from "node-fetch"
 import * as path from "path"
 import retry from "async-retry"

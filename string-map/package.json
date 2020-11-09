@@ -55,7 +55,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@azure-openapi-tools/iterator": "^1.0.0"
+    "@azure/openapi-tools-common-iterator": "^1.0.0"
   },
   "peerDependencies": {
     "tslib": "^2.0.0"

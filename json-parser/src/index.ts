@@ -1,8 +1,8 @@
-import * as json from "@azure-openapi-tools/json";
-import * as iterator from "@azure-openapi-tools/iterator";
-import * as sourceMap from "@azure-openapi-tools/source-map";
-import * as stringMap from "@azure-openapi-tools/string-map";
-import * as addPosition from "@azure-openapi-tools/add-position";
+import * as json from "@azure/openapi-tools-common-json";
+import * as iterator from "@azure/openapi-tools-common-iterator";
+import * as sourceMap from "@azure/openapi-tools-common-source-map";
+import * as stringMap from "@azure/openapi-tools-common-string-map";
+import * as addPosition from "@azure/openapi-tools-common-add-position";
 
 namespace fa {
   export interface Result<C, R> {

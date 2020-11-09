@@ -1,4 +1,4 @@
-import * as sync from "@azure-openapi-tools/iterator"
+import * as sync from "@azure/openapi-tools-common-iterator"
 
 export type Entry<T> = sync.Entry<T>
 

@@ -1,7 +1,7 @@
 import * as assert from "assert"
 import { parse, ParseError } from "../index"
-import { getInfo, objectInfoSymbol } from '@azure-openapi-tools/source-map';
-import { JsonArray } from '@azure-openapi-tools/json';
+import { getInfo, objectInfoSymbol } from '@azure/openapi-tools-common-source-map';
+import { JsonArray } from '@azure/openapi-tools-common-json';
 import * as fs from "fs"
 
 describe("parse", () => {

@@ -1,8 +1,8 @@
-import { StringMap } from "@azure-openapi-tools/string-map"
-import * as sm from "@azure-openapi-tools/string-map"
-import * as _ from "@azure-openapi-tools/iterator"
-import * as propertySet from "@azure-openapi-tools/property-set"
-import * as json from '@azure-openapi-tools/json';
+import { StringMap } from "@azure/openapi-tools-common-string-map"
+import * as sm from "@azure/openapi-tools-common-string-map"
+import * as _ from "@azure/openapi-tools-common-iterator"
+import * as propertySet from "@azure/openapi-tools-common-property-set"
+import * as json from '@azure/openapi-tools-common-json';
 
 export interface FilePosition {
     readonly line: number
@@ -55,7 +55,7 @@ export const createChildObjectInfo = (
 
 export type ObjectInfo = ChildObjectInfo|RootObjectInfo
 
-export const objectInfoSymbol = Symbol.for("@azure-openapi-tools/source-map/object-info")
+export const objectInfoSymbol = Symbol.for("@azure/openapi-tools-common-source-map/object-info")
 
 export interface TrackedBaseInterface {
     readonly [objectInfoSymbol]: InfoFunc

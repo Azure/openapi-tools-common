@@ -66,11 +66,11 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@azure-openapi-tools/add-position": "1.0.0",
-    "@azure-openapi-tools/iterator": "^1.0.0",
-    "@azure-openapi-tools/json": "^1.0.0",
-    "@azure-openapi-tools/source-map": "^1.0.0",
-    "@azure-openapi-tools/string-map": "^1.0.0",
+    "@azure/openapi-tools-common-add-position": "1.0.0",
+    "@azure/openapi-tools-common-iterator": "^1.0.0",
+    "@azure/openapi-tools-common-json": "^1.0.0",
+    "@azure/openapi-tools-common-source-map": "^1.0.0",
+    "@azure/openapi-tools-common-string-map": "^1.0.0",
     "tslib": "^2.0.0"
   }
 }
