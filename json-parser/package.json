@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/json-parser",
+  "name": "@azure/openapi-tools-common-json-parser",
   "version": "1.0.0",
   "description": "JSON Parser",
   "main": "dist/index.js",

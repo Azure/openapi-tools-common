@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/source-map",
+  "name": "@azure/openapi-tools-common-source-map",
   "version": "1.0.0",
   "description": "Source Map",
   "main": "dist/index.js",

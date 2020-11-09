@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/property-set",
+  "name": "@azure/openapi-tools-common-property-set",
   "version": "0.1.0",
   "description": "A set of properties",
   "main": "dist/index.js",

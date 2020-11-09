@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/virtual-fs",
+  "name": "@azure/openapi-tools-common-virtual-fs",
   "version": "1.0.0",
   "description": "Virtual File System",
   "main": "dist/index.js",

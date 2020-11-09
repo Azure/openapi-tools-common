@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/fs",
+  "name": "@azure/openapi-tools-common-fs",
   "version": "1.0.0",
   "description": "Promisified File System",
   "main": "dist/index.js",
