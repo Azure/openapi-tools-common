@@ -1,4 +1,4 @@
-import * as _ from "@azure-openapi-tools/iterator";
+import * as _ from "@azure/openapi-tools-common-iterator";
 
 export const enum EntryIndex {
   Key = 0,

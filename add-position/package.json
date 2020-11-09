@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/add-position",
+  "name": "@azure/openapi-tools-common-add-position",
   "version": "1.0.0",
   "description": "Add position to every character in a stream",
   "main": "dist/index.js",
@@ -68,6 +68,6 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@azure-openapi-tools/iterator": "^1.0.0"
+    "@azure/openapi-tools-common-iterator": "^1.0.0"
   }
 }

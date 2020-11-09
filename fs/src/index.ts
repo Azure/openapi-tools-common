@@ -1,6 +1,6 @@
 import * as fs from "fs"
 import * as path from "path"
-import * as asyncIt from "@azure-openapi-tools/async-iterator"
+import * as asyncIt from "@azure/openapi-tools-common-async-iterator"
 import * as util from "util"
 
 export const readFile = util.promisify(fs.readFile)

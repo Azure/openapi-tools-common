@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/async-iterator",
+  "name": "@azure/openapi-tools-common-async-iterator",
   "version": "1.0.0",
   "description": "Asynchronous Iterator (ES2019)",
   "main": "dist/index.js",
@@ -65,7 +65,7 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "@azure-openapi-tools/iterator": "^1.0.0",
+    "@azure/openapi-tools-common-iterator": "^1.0.0",
     "tslib": "^1.10.0"
   }
 }

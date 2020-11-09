@@ -1,6 +1,6 @@
 /* tslint:disable:no-expression-statement readonly-keyword */
 import * as _ from "./index";
-import * as i from "@azure-openapi-tools/iterator";
+import * as i from "@azure/openapi-tools-common-iterator";
 import "mocha";
 import { assert } from "chai";
 

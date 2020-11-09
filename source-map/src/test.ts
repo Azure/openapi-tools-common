@@ -24,9 +24,9 @@ import {
     getInfoFunc,
     cloneDeepWithInfo
 } from "./index"
-import * as json from "@azure-openapi-tools/json"
-import { Json } from '@azure-openapi-tools/json'
-import { StringMap } from '@azure-openapi-tools/string-map'
+import * as json from "@azure/openapi-tools-common-json"
+import { Json } from '@azure/openapi-tools-common-json'
+import { StringMap } from '@azure/openapi-tools-common-string-map'
 
 describe("info", () => {
     it("array", () => {

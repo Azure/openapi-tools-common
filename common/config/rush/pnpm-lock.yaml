@@ -1,15 +1,15 @@
 dependencies:
-  '@rush-temp/add-position': 'file:projects/add-position.tgz'
-  '@rush-temp/async-iterator': 'file:projects/async-iterator.tgz'
-  '@rush-temp/commonmark-to-markdown': 'file:projects/commonmark-to-markdown.tgz'
-  '@rush-temp/fs': 'file:projects/fs.tgz'
-  '@rush-temp/iterator': 'file:projects/iterator.tgz'
-  '@rush-temp/json': 'file:projects/json.tgz'
-  '@rush-temp/json-parser': 'file:projects/json-parser.tgz'
-  '@rush-temp/property-set': 'file:projects/property-set.tgz'
-  '@rush-temp/source-map': 'file:projects/source-map.tgz'
-  '@rush-temp/string-map': 'file:projects/string-map.tgz'
-  '@rush-temp/virtual-fs': 'file:projects/virtual-fs.tgz'
+  '@rush-temp/openapi-tools-common-add-position': 'file:projects/openapi-tools-common-add-position.tgz'
+  '@rush-temp/openapi-tools-common-async-iterator': 'file:projects/openapi-tools-common-async-iterator.tgz'
+  '@rush-temp/openapi-tools-common-commonmark-to-markdown': 'file:projects/openapi-tools-common-commonmark-to-markdown.tgz'
+  '@rush-temp/openapi-tools-common-fs': 'file:projects/openapi-tools-common-fs.tgz'
+  '@rush-temp/openapi-tools-common-iterator': 'file:projects/openapi-tools-common-iterator.tgz'
+  '@rush-temp/openapi-tools-common-json': 'file:projects/openapi-tools-common-json.tgz'
+  '@rush-temp/openapi-tools-common-json-parser': 'file:projects/openapi-tools-common-json-parser.tgz'
+  '@rush-temp/openapi-tools-common-property-set': 'file:projects/openapi-tools-common-property-set.tgz'
+  '@rush-temp/openapi-tools-common-source-map': 'file:projects/openapi-tools-common-source-map.tgz'
+  '@rush-temp/openapi-tools-common-string-map': 'file:projects/openapi-tools-common-string-map.tgz'
+  '@rush-temp/openapi-tools-common-virtual-fs': 'file:projects/openapi-tools-common-virtual-fs.tgz'
   '@types/async-retry': 1.4.2
   '@types/commonmark': 0.27.4
   '@types/glob': 7.1.3
@@ -672,18 +672,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
-  /@ts-common/iterator/0.3.6:
-    dev: false
-    resolution:
-      integrity: sha512-nNdcleTj3qLlchH17HI/xqOc6sNgOqJ5DdRR0nOEVdJVZCo5bfqoQTu6+Q9ZwMhuETuR2d86MSlmaL2FVHnPjQ==
-  /@ts-common/iterator/1.0.1_tslib@2.0.2:
-    dependencies:
-      tslib: 2.0.2
-    dev: false
-    peerDependencies:
-      tslib: ^1.0.0
-    resolution:
-      integrity: sha512-Gd9+5DFpGuiFj2Qgm7BkP4vre+g1iutM/SJZhX20yF2mtHnOyXo31W8XxrSHeYbXaMv95rQrzU8Oj+kGNSibXQ==
   /@types/async-retry/1.4.2:
     dependencies:
       '@types/retry': 0.12.0
@@ -6079,7 +6067,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
-  'file:projects/add-position.tgz':
+  'file:projects/openapi-tools-common-add-position.tgz':
     dependencies:
       '@types/jest': 24.9.1
       jest: 26.5.2
@@ -6088,14 +6076,13 @@ packages:
       tslint-immutable: 6.0.1_tslint@6.1.3+typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/add-position'
+    name: '@rush-temp/openapi-tools-common-add-position'
     resolution:
-      integrity: sha512-xSD/EC53/YBPjf0Z3r7qOytzL8v8DR9fj1B4LO73cDSggvAapzRgFytJcvo7/8kRMrhaCxDACxvfHPa+CuWK1g==
-      tarball: 'file:projects/add-position.tgz'
+      integrity: sha512-oKxZsT9fgpxUhU7WXl8oWJwGKEdxIw0bt4hWUCEAM7jQIe8n4x40XAXbB8Liiocjh8RarRs7sWbrnZ2wdJSMKg==
+      tarball: 'file:projects/openapi-tools-common-add-position.tgz'
     version: 0.0.0
-  'file:projects/async-iterator.tgz':
+  'file:projects/openapi-tools-common-async-iterator.tgz':
     dependencies:
-      '@ts-common/iterator': 0.3.6
       '@types/jest': 24.9.1
       jest: 24.9.0
       jest-junit: 6.4.0
@@ -6104,12 +6091,12 @@ packages:
       tslint-immutable: 6.0.1_tslint@5.20.1+typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/async-iterator'
+    name: '@rush-temp/openapi-tools-common-async-iterator'
     resolution:
-      integrity: sha512-Iro971dWetYsrJNxt2xBUlZH1Ha0xoDVf84md0lume7WaOzyoGVuwCausxrbgxBeojP6DEe2SIlNoh/btF7UvQ==
-      tarball: 'file:projects/async-iterator.tgz'
+      integrity: sha512-fLQjjl2gzmVuVisWu8Mtpb33bo9ol/aTX1OcnQSD2yyDD89x+c+wCB5jE63jAQSS9xTf8IGVGn6PPyMacpxmzg==
+      tarball: 'file:projects/openapi-tools-common-async-iterator.tgz'
     version: 0.0.0
-  'file:projects/commonmark-to-markdown.tgz':
+  'file:projects/openapi-tools-common-commonmark-to-markdown.tgz':
     dependencies:
       '@types/chai': 4.2.13
       '@types/commonmark': 0.27.4
@@ -6124,12 +6111,12 @@ packages:
       mocha: 6.2.3
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/commonmark-to-markdown'
+    name: '@rush-temp/openapi-tools-common-commonmark-to-markdown'
     resolution:
-      integrity: sha512-s3kWcVkYprxqOuwAb9Mi/Gbh7QMVqaTeTduso/4Mkj60lLXeIY2a0xa4tUK1CzYCNuAuRXABvctWfEGkPhwfcQ==
-      tarball: 'file:projects/commonmark-to-markdown.tgz'
+      integrity: sha512-GosSnMTrBY6K0WIc6pe/aVjQ1XVfUNQOoVrK1nhHqTy8yvlsCWD4fp3mfpEdNoDuMPwcJCBH4Aenhmt7Leoojg==
+      tarball: 'file:projects/openapi-tools-common-commonmark-to-markdown.tgz'
     version: 0.0.0
-  'file:projects/fs.tgz':
+  'file:projects/openapi-tools-common-fs.tgz':
     dependencies:
       '@types/chai': 4.2.13
       '@types/mocha': 5.2.7
@@ -6139,12 +6126,12 @@ packages:
       tslib: 1.14.0
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/fs'
+    name: '@rush-temp/openapi-tools-common-fs'
     resolution:
-      integrity: sha512-h1d5zqZQ2L/vFOkJ567jP0VpL+kQciPpCUbM2phfltQg/1bvcIiIw6nQIUBdeKOEiv0kYDtrnjKKgsWk+R16Wg==
-      tarball: 'file:projects/fs.tgz'
+      integrity: sha512-jK6uPl/i6ANl51fQdoatY6v1G4wfAhiotitUTBQndaxiuWrLceN5lpH3zronSoic64MZAStVkr3ttE4CvYCaEA==
+      tarball: 'file:projects/openapi-tools-common-fs.tgz'
     version: 0.0.0
-  'file:projects/iterator.tgz':
+  'file:projects/openapi-tools-common-iterator.tgz':
     dependencies:
       '@types/jest': 24.9.1
       jest: 26.5.2
@@ -6153,12 +6140,12 @@ packages:
       tslint-immutable: 6.0.1_tslint@6.1.3+typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/iterator'
+    name: '@rush-temp/openapi-tools-common-iterator'
     resolution:
-      integrity: sha512-C8AJvkx3qPYL9IrkjR3lP8Rs18qFXDHrWPqd5p5/wasQfCl8LBTzIr4axv8VR+MMbYmnGC545w7+HBYlzBm12Q==
-      tarball: 'file:projects/iterator.tgz'
+      integrity: sha512-/8tV6AWddfhEl3X8mzsZTvoSiRb3Ayz6w4ezVcqcSQ9ddH5hBmdnRkuk0ympktPYGU4/Hlqk03y/dKsZrQzvqg==
+      tarball: 'file:projects/openapi-tools-common-iterator.tgz'
     version: 0.0.0
-  'file:projects/json-parser.tgz':
+  'file:projects/openapi-tools-common-json-parser.tgz':
     dependencies:
       '@types/jest': 24.9.1
       '@types/node': 10.17.39
@@ -6167,12 +6154,12 @@ packages:
       tslib: 2.0.2
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/json-parser'
+    name: '@rush-temp/openapi-tools-common-json-parser'
     resolution:
-      integrity: sha512-ZVHsyZKex+Y/SWb5qJoagR4hs6U2OGLfzTjH7/e67H1usweoEV/2QT/dxQiBKbaFMxRJgIGfgJp+kB80WbpxSg==
-      tarball: 'file:projects/json-parser.tgz'
+      integrity: sha512-Far1rAxu0mdr9qkIZzjReK9nnAlNKravuSzL3JxhBASWvYSV+j9l0fD8BpQnKRqEDD2IcaBZ2F5ylNNL9BefFw==
+      tarball: 'file:projects/openapi-tools-common-json-parser.tgz'
     version: 0.0.0
-  'file:projects/json.tgz':
+  'file:projects/openapi-tools-common-json.tgz':
     dependencies:
       '@types/jest': 24.9.1
       '@types/node': 10.17.39
@@ -6182,12 +6169,12 @@ packages:
       tslint: 6.1.3_typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/json'
+    name: '@rush-temp/openapi-tools-common-json'
     resolution:
-      integrity: sha512-CBa8Lwv0bR4dh4q5odAabTNwCwLco9zGErOMZy+ua9XWi6O6p3RxESco/EUV9q/TirCqnw7k4Q79ZzW1/YtkBA==
-      tarball: 'file:projects/json.tgz'
+      integrity: sha512-P8D1canfaxMrJBE1NOdhQJOgivCHbdB+dc4giAP2UBR0dkw8cwfarczCNNibXtMeenWfrgJYeuniIfXF7e9dLw==
+      tarball: 'file:projects/openapi-tools-common-json.tgz'
     version: 0.0.0
-  'file:projects/property-set.tgz':
+  'file:projects/openapi-tools-common-property-set.tgz':
     dependencies:
       '@types/chai': 4.2.13
       '@types/mocha': 5.2.7
@@ -6197,12 +6184,12 @@ packages:
       tslint: 5.20.1_typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/property-set'
+    name: '@rush-temp/openapi-tools-common-property-set'
     resolution:
-      integrity: sha512-PenjUr23XoUDC1+RbDubuKrTn4xpKQByanuvIQtm7cKrXkQb3+Le1fyYGgbzJdfyZoeyytTSNvWW3pD8+9S+Rw==
-      tarball: 'file:projects/property-set.tgz'
+      integrity: sha512-03PeS0kJJ2aSdsHz+mh8msbe9XXjD8E0Yd92mB+Zij+9SPjc8CSrW9iijaW9VVjl9p9XFufBNYBb41xnzy7mew==
+      tarball: 'file:projects/openapi-tools-common-property-set.tgz'
     version: 0.0.0
-  'file:projects/source-map.tgz':
+  'file:projects/openapi-tools-common-source-map.tgz':
     dependencies:
       '@types/chai': 4.2.13
       '@types/mocha': 7.0.2
@@ -6213,14 +6200,13 @@ packages:
       tslib: 2.0.2
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/source-map'
+    name: '@rush-temp/openapi-tools-common-source-map'
     resolution:
-      integrity: sha512-tzxLvk1E3jLO0CcnepgbWUk/uZpj06ckAN+e4osMSE38jO5PRlgIae9LrOyoQOv0D2w33InD8I/0eX9mUlXrmQ==
-      tarball: 'file:projects/source-map.tgz'
+      integrity: sha512-uEXuOinvgm+rmKSftJ1QIvFkaAVaojoOeLkzsH9zEQLjgrUBkcKIbn6TotfJbymYA5ajPxizozQL09eEgdH02g==
+      tarball: 'file:projects/openapi-tools-common-source-map.tgz'
     version: 0.0.0
-  'file:projects/string-map.tgz':
+  'file:projects/openapi-tools-common-string-map.tgz':
     dependencies:
-      '@ts-common/iterator': 1.0.1_tslib@2.0.2
       '@types/chai': 4.2.13
       '@types/mocha': 7.0.2
       chai: 4.2.0
@@ -6232,12 +6218,12 @@ packages:
       tslint-immutable: 6.0.1_tslint@6.1.3+typescript@3.9.7
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/string-map'
+    name: '@rush-temp/openapi-tools-common-string-map'
     resolution:
-      integrity: sha512-NY3uK8CVeAox26hZFn+T5SdXEV4AxbEHLfELpG9NOwTCMBHqW97LJV1ghZ9Cjc+mj79U3i7+KFA8TTUjBq7wuA==
-      tarball: 'file:projects/string-map.tgz'
+      integrity: sha512-euo2wU4FFMMNUqUathiyEYU4z84yspDy3Xuf25PTuN5DCN5gDhHZJpznabN0Ur8s0UuMrce3SLSi/zRRe4itkA==
+      tarball: 'file:projects/openapi-tools-common-string-map.tgz'
     version: 0.0.0
-  'file:projects/virtual-fs.tgz':
+  'file:projects/openapi-tools-common-virtual-fs.tgz':
     dependencies:
       '@types/async-retry': 1.4.2
       '@types/chai': 4.2.13
@@ -6250,24 +6236,24 @@ packages:
       nyc: 15.1.0
       typescript: 3.9.7
     dev: false
-    name: '@rush-temp/virtual-fs'
+    name: '@rush-temp/openapi-tools-common-virtual-fs'
     resolution:
-      integrity: sha512-aiGgjl2Xfr8EX+r7y/chCPoeeImrV8E5V1QiZrXtb1oy8qTpftbHcnpaQneZgFlsRnXlu4seAMdko87qqkQcow==
-      tarball: 'file:projects/virtual-fs.tgz'
+      integrity: sha512-wH1sLeaMUUNGaB/5PzxkUBtliFyYJqSiNa23ALL5u5gMJyawhvI3F5Q4ddAJFf11F7B5DoKT0pC605f17+dWVQ==
+      tarball: 'file:projects/openapi-tools-common-virtual-fs.tgz'
     version: 0.0.0
 registry: ''
 specifiers:
-  '@rush-temp/add-position': 'file:./projects/add-position.tgz'
-  '@rush-temp/async-iterator': 'file:./projects/async-iterator.tgz'
-  '@rush-temp/commonmark-to-markdown': 'file:./projects/commonmark-to-markdown.tgz'
-  '@rush-temp/fs': 'file:./projects/fs.tgz'
-  '@rush-temp/iterator': 'file:./projects/iterator.tgz'
-  '@rush-temp/json': 'file:./projects/json.tgz'
-  '@rush-temp/json-parser': 'file:./projects/json-parser.tgz'
-  '@rush-temp/property-set': 'file:./projects/property-set.tgz'
-  '@rush-temp/source-map': 'file:./projects/source-map.tgz'
-  '@rush-temp/string-map': 'file:./projects/string-map.tgz'
-  '@rush-temp/virtual-fs': 'file:./projects/virtual-fs.tgz'
+  '@rush-temp/openapi-tools-common-add-position': 'file:./projects/openapi-tools-common-add-position.tgz'
+  '@rush-temp/openapi-tools-common-async-iterator': 'file:./projects/openapi-tools-common-async-iterator.tgz'
+  '@rush-temp/openapi-tools-common-commonmark-to-markdown': 'file:./projects/openapi-tools-common-commonmark-to-markdown.tgz'
+  '@rush-temp/openapi-tools-common-fs': 'file:./projects/openapi-tools-common-fs.tgz'
+  '@rush-temp/openapi-tools-common-iterator': 'file:./projects/openapi-tools-common-iterator.tgz'
+  '@rush-temp/openapi-tools-common-json': 'file:./projects/openapi-tools-common-json.tgz'
+  '@rush-temp/openapi-tools-common-json-parser': 'file:./projects/openapi-tools-common-json-parser.tgz'
+  '@rush-temp/openapi-tools-common-property-set': 'file:./projects/openapi-tools-common-property-set.tgz'
+  '@rush-temp/openapi-tools-common-source-map': 'file:./projects/openapi-tools-common-source-map.tgz'
+  '@rush-temp/openapi-tools-common-string-map': 'file:./projects/openapi-tools-common-string-map.tgz'
+  '@rush-temp/openapi-tools-common-virtual-fs': 'file:./projects/openapi-tools-common-virtual-fs.tgz'
   '@types/async-retry': ^1.4.1
   '@types/commonmark': ^0.27.3
   '@types/glob': ^7.1.1

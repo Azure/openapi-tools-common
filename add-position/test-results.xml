@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="0" time="2.071">
-  <testsuite name="addPosition" errors="0" failures="0" skipped="0" timestamp="2020-10-10T03:19:41" time="1.737" tests="4">
-    <testcase classname="addPosition &apos;h&apos;" name="addPosition &apos;h&apos;" time="0.003">
+<testsuites name="jest tests" tests="4" failures="0" time="71.906">
+  <testsuite name="addPosition" errors="0" failures="0" skipped="0" timestamp="2020-11-09T07:04:04" time="65.709" tests="4">
+    <testcase classname="addPosition &apos;h&apos;" name="addPosition &apos;h&apos;" time="0.006">
     </testcase>
     <testcase classname="addPosition &apos;h\nw&apos;" name="addPosition &apos;h\nw&apos;" time="0.001">
     </testcase>

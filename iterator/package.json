@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/iterator",
+  "name": "@azure/openapi-tools-common-iterator",
   "version": "1.0.0",
   "description": "Iterator library for JavaScript and TypeScript",
   "main": "dist/index.js",

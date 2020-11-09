@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/fs",
+  "name": "@azure/openapi-tools-common-fs",
   "version": "1.0.0",
   "description": "Promisified File System",
   "main": "dist/index.js",
@@ -47,7 +47,7 @@
     "typescript": "^3.4.1"
   },
   "dependencies": {
-    "@azure-openapi-tools/async-iterator": "^1.0.0",
+    "@azure/openapi-tools-common-async-iterator": "^1.0.0",
     "@types/node": "^10.12.18",
     "tslib": "^1.9.3"
   }

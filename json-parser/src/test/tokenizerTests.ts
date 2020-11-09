@@ -1,6 +1,6 @@
 import * as assert from "assert"
 import { tokenize, ParseError } from "../index"
-import { toArray } from "@azure-openapi-tools/iterator"
+import { toArray } from "@azure/openapi-tools-common-iterator"
 
 describe("tokenize", () => {
     it("empty", () => {

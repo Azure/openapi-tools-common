@@ -1,5 +1,5 @@
 {
-  "name": "@azure-openapi-tools/string-map",
+  "name": "@azure/openapi-tools-common-string-map",
   "version": "1.0.0",
   "description": "String Map",
   "main": "dist/index.js",
@@ -55,7 +55,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@azure-openapi-tools/iterator": "^1.0.0"
+    "@azure/openapi-tools-common-iterator": "^1.0.0"
   },
   "peerDependencies": {
     "tslib": "^2.0.0"

@@ -1,4 +1,4 @@
-import * as iterator from "@azure-openapi-tools/iterator"
+import * as iterator from "@azure/openapi-tools-common-iterator"
 
 export type Position = {
     /**
