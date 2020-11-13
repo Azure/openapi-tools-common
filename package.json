@@ -55,9 +55,11 @@
     "url": "git+https://github.com/azure/openapi-tools-common.git"
   },
   "keywords": [
-    "virtual",
-    "file",
-    "system"
+    "openapi",
+    "iterator",
+    "sourcemap",
+    "markdown",
+    "jsonparser"
   ],
   "author": "Sergey Shandar",
   "license": "MIT",
