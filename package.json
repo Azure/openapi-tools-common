@@ -1,5 +1,5 @@
 {
-  "name": "@azure/openapi-tools-common",
+  "name": "@azure-tools/openapi-tools-common",
   "version": "1.0.0",
   "description": "Openapi tools common libraries",
   "main": "dist/index.js",
