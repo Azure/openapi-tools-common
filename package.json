@@ -1,6 +1,6 @@
 {
   "name": "@azure-tools/openapi-tools-common",
-  "version": "1.1.0",
+  "version": "1.2.2",
   "description": "Openapi tools common libraries",
   "main": "dist/index.js",
   "scripts": {
@@ -13,11 +13,7 @@
   },
   "types": "dist/index.d.ts",
   "files": [
-    "dist/index.d.ts",
-    "dist/index.d.ts.map",
-    "dist/index.js.map",
-    "dist/index.ts",
-    "src/index.ts"
+    "dist/**/*"
   ],
   "jest": {
     "testEnvironment": "node",
