@@ -184,6 +184,8 @@ export {
   createRootObjectInfo,
   createChildObjectInfo,
   ObjectInfo,
+  setInfoFunc,
+  getInfoFunc,
   copyInfo,
   setInfo,
   arrayMap,
