@@ -1,6 +1,6 @@
 {
   "name": "@azure-tools/openapi-tools-common",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Openapi tools common libraries",
   "main": "dist/index.js",
   "scripts": {
