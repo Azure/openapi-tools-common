@@ -26,7 +26,7 @@ export const urlParse = (dir: string): Url | undefined => {
 export const readFile = async (pathStr: string): Promise<string> => {
   const result = urlParse(pathStr)
   return result === undefined
-    ? (await fsp.readFile(pathStr)).toString()
+    ? (await fsp.asyncReadFile(pathStr)).toString()
     : await getByUrl(pathStr)
 }
 
@@ -96,7 +96,7 @@ export const exists = async (dir: string): Promise<boolean> => {
       return false
     }
   } else {
-    return fsp.exists(dir)
+    return fsp.asyncExists(dir)
   }
 }
 
