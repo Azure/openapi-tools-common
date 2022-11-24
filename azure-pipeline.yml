@@ -1,0 +1,8 @@
+pool:
+  vmImage: "Ubuntu 20.04"
+
+variables:
+  Codeql.Enabled: true
+
+trigger:
+  - main
