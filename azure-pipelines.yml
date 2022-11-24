@@ -1,0 +1,29 @@
+pool:
+  vmImage: "Ubuntu 20.04"
+
+variables:
+  Codeql.Enabled: true
+
+trigger:
+  - main
+  
+steps:
+  - task: Npm@1
+    displayName: "npm ci"
+    inputs:
+      command: ci
+      verbose: false
+    
+  - task: Npm@1
+    displayName: "npm run build"
+    inputs:
+      command: custom
+      verbose: false
+      customCommand: run build
+
+  - task: Npm@1
+    displayName: "npm pack"
+    inputs:
+      command: custom
+      verbose: false
+      customCommand: pack
