@@ -6,7 +6,6 @@ variables:
 
 trigger:
   - main
-
   
 steps:
   - task: Npm@1
@@ -21,7 +20,7 @@ steps:
       command: custom
       verbose: false
       customCommand: run build
-      
+
   - task: Npm@1
     displayName: "npm pack"
     inputs:
